@@ -1,0 +1,56 @@
+Project Description:
+- Build a Machine Learning Model to predict the price of a Resale Flat in Singapore.
+- Model will use data of the attributes of a Resale Flat to predict its Resale Price.
+
+Project Approach:
+1. Problem Definition:
+    - Given a flat's attributes and details, predict the Resale Price of the Flat
+
+2. Data Details:
+    - Resale Flat Dataset Description:
+        - Original Data from https://data.gov.sg/dataset/resale-flat-prices
+        - Time Period is from 2017 to 2022 only
+    - Patterns between Columns in the Dataset:
+        - Relationship between Town and Resale Price
+        - Relationship between Flat Type and Resale Price
+        - Relationship between Storey Range and Resale Price
+        - Relationship between Flat Model and Resale Price
+        - Relationship beween Floor Area and Resale Price
+        - Flat Prices over Time from 2017 to 2022
+
+3. Data Features:
+    - Flat Prices Data Attributes:
+        - month (Date the flat was sold in YYYY-MM-DD)
+        - town (Name of the Town where the flat was located)
+        - flat_type (Type of flat)
+        - block (Number of the Block where the flat was located)
+        - street_name (Name of the street where the flat was located)
+        - storey_range (Range of Levels where the flat was on)
+        - floor_area_sqm (Floor Area of the flat in sqm)
+        - flat_model (Model of the Flat)
+        - lease_commence_date (Start Date of the Lease in YYYY-MM-DD)
+        - remaining_lease (Remaining Lease of the flat in Years)
+        - resale_price (Resale Price of the flat in SGD)
+
+4. Evaluation Metrics Goal:
+    - Model should achieve an R2 Score of at least 0.85 in predicting Flat Prices.
+
+5. Modelling:
+    - Data Analysis and Manipulation:
+        - Pandas
+        - Numpy
+        - Matplotlib
+    -Scikit-Learn Models:
+        - RandomForestRegressor
+        - DecisionTreeRegressor
+    - Model Evaluation:
+        - Mean Absolute Error
+        - Median Absolute Error
+        - Root Mean Squared Error
+        - Mean Absolute Percentage Error
+        - Mean Squared Log Error
+        - R2 Score
+    - Model Tuning and Improvement:
+        - GridSearchCV
+
+6. Experimentation
