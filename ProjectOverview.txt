@@ -9,7 +9,7 @@ Project Approach:
 2. Data Details:
     - Resale Flat Dataset Description:
         - Original Data from https://data.gov.sg/dataset/resale-flat-prices
-        - Time Period is from 2017 to 2022 only
+        - Time Period is from Jan 2017 to Apr 2022 only
     - Patterns between Columns in the Dataset:
         - Relationship between Town and Resale Price
         - Relationship between Flat Type and Resale Price
@@ -33,12 +33,11 @@ Project Approach:
         - resale_price (Resale Price of the flat in SGD)
 
 4. Evaluation Metrics Goal:
-    - Model should achieve an R2 Score of at least 0.85 in predicting Flat Prices.
+    - Model should achieve an R2 Score of at least 0.75 in predicting Flat Prices.
 
 5. Modelling:
     - Data Analysis and Manipulation:
         - Pandas
-        - Numpy
         - Matplotlib
     -Scikit-Learn Models:
         - RandomForestRegressor
