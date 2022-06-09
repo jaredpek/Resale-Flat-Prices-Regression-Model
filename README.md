@@ -16,3 +16,8 @@ Saving the Model:
 2. Save Heart Disease Model:
     - save({Name of Heart Disease Model Variable}, filename='FlatPricesModel')
 3. Model would be saved in the same directory
+
+Using the Streamlit App:
+1. Run the FlatPricesModel.ipynb once to Save the Model
+2. Run the Streamlit App:
+    - streamlit run .\FlatPricesPredictionApp.py
